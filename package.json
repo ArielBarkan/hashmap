@@ -1,0 +1,19 @@
+{
+  "name": "hash_tables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hashmap.js",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node src/hashmap.js",
+    "dev": "nodemon src/hashmap.js -e html,hbs,js,css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
