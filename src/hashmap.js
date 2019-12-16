@@ -120,5 +120,5 @@ console.log(hashTable.search('home/music/pop/us'));
 
 
 console.log("------------------------------------------------------");
-console.log("7 - search in  hashTable the a non existing dir : 'home/videos'");
+console.log("7 - search in  hashTable a non existing dir : 'home/videos'");
 console.log(hashTable.search('home/videos'));
