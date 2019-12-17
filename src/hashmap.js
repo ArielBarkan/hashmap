@@ -1,5 +1,7 @@
 // PREVIEW AND TEST CODE AT: https://codepen.io/ArielBarkan/pen/qBEqjbY?editors=0012&fbclid=IwAR3X-YaTtG-6MNKcZ89hhG5jhxtXEGEOwNXu37bX8HbZpBDQrE_IsFUh1Ow
-// HASH TABLE
+
+// Github: https://github.com/ArielBarkan/hashmap
+// HASH FUNCTION
 const hash = (key, size) =>{
     var hashedKey   = 0;
 
@@ -48,6 +50,12 @@ class HashTable{
 const hashTable = new HashTable();
 
 hashTable.insert(
+    'home/videos',{
+    folders : [],
+    files   : ['movie1.mp4','movie2.mp4','movie3.mp4']
+});
+
+hashTable.insert(
     'home',{
     folders : ['music'],
     files   : ['readme.md']
@@ -88,6 +96,9 @@ hashTable.insert(
     folders : [],
     files   : ['us_song1.mp3','us_song2.mp3','us_song3.mp3']
 });
+
+hashTable.remove('home/videos');
+
 console.clear();
 console.log("------------------------");
 console.log("1 - displaying hashTable");
